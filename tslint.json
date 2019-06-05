@@ -1,6 +1,5 @@
 {
   "extends": [
-    "tslint-config-ali"
   ],
   "rules": {
     // 消除变量名必须大写的警告
