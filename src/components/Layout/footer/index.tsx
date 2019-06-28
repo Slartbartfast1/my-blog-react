@@ -1,8 +1,10 @@
 import React, { ReactElement } from 'react';
 import './style.scss';
 
-export default function Footer(): ReactElement {
+const Footer: React.FC<any> = () => {
   return (
     <div className="footer-wrap">Footer</div>
   );
-}
+};
+
+export default Footer;
